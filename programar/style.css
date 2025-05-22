@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(56, 99, 120);
+}
+
+.Paragrafos{
+    background-color: rgb(121, 145, 160);
+    padding: 20px 10px;
+    display: block;
+}
+.P1{
+    display: flex;
+}
+.Foto-H {
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+    border: solid 2px black;
+
+}
+.P2{
+    margin: 0px 50px;
+}
+
+#Tl{
+    font-size: 40px;
+}
+#Sb{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 142px 00px 8px;
+}
