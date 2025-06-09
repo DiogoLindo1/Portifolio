@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style(teste).css">
+    <title>Meu Site</title>
+</head>
+<body>
+    <script>
+        function MostrarProjetos(){
+            document.getElementsByClassName("Paragrafo1")[0].style.display = "block";
+            document.getElementsByClassName("Paragrafo1")[1].style.display = "block";
+            document.getElementsByClassName("Paragrafo1")[2].style.display = "block";
+            document.getElementsByClassName("Paragrafo1")[3].style.display = "block";
+            document.getElementsByClassName("Paragrafo1")[4].style.display = "block";
+            document.getElementsByClassName("esconder")[0].style.display = "block";
+        }
+        function OcultarProjetos(){
+            document.getElementsByClassName("Paragrafo1")[0].style.display = "none";
+            document.getElementsByClassName("Paragrafo1")[1].style.display = "none";
+            document.getElementsByClassName("Paragrafo1")[2].style.display = "none";
+            document.getElementsByClassName("Paragrafo1")[3].style.display = "none";
+            document.getElementsByClassName("Paragrafo1")[4].style.display = "none";
+            document.getElementsByClassName("esconder")[0].style.display = "none";
+        }
+    </script>
+    <header class="Paragrafos">
+        <div class="P1">
+            <img src="https://static.todamateria.com.br/upload/ca/va/cavalo.jpg" alt="Minha foto" class="Foto-H">
+            <div class="P2">
+                <h1 class="Tl">Meu nome: Diogo</h1>
+                <h1 id="Sb">Sobre mim: Eu tenho 17 anos, nasci em 21/10/2007 em Campinas, mas morei minha vida inteira em Cambuí, Minas Gerais, desde os meus 5 anos eu ja em interessava por jogos e por computadores, mas comecei a programar em 2023 quando a escola implementou um curso tecnico na escola sobre portugol, mas no 2ºano do ensino médio, migrou para o python, e atualmente no 3ºano do médio estamos aprendendo sobre HTML e PHP, e embreve aprenderemos sobre JavaScript.  </h1>
+            </div>
+        </div>
+    </header>
+    <section class = "Paragrafos">
+        <p class = "Tl">Meus projetos: </p>
+        <p class="Lt">Até hoje eu não fiz muitos projetos, mas aqui estão alguns dos que eu fiz:</p>
+        <p class="Paragrafo1">Fiz uma calculadora multi funcional em python</p>
+        <p class="Paragrafo1">Esse próprio porifólio é um dos projetos que fiz</p>
+        <p class="Paragrafo1">Já fiz um jogo no roblox pra testar, so de brincadeira</p>
+        <p class="Paragrafo1">Estou fazendo um trabalho em JavaScript</p>
+        <p class="Paragrafo1">Bom, e por enquanto é isso, porem pretendo fazer ainda mais.</p>
+        
+        <button class="esconder" onclick="OcultarProjetos()">Ocultar os Projetos</button>
+        <button onclick="MostrarProjetos()">Clique para ver.</button>
+    </section>
+    <section class="Paragrafos">
+        <p class="Tl">O que eu gosto de fazer: </p>
+        <p class="Lt">Eu gosto de comer, dormir e jogar no computador, principalmente jogo de batalha, tanto tiro como luta. Eu tambem gosto de programar, mesmo que eu não seja muito bom nisso ainda, porem é algo que eu pretendo melhorar, já que é nessa área que eu pretendo trabalhar.</p>
+    </section>
+    <section class="Paragrafos">
+        <p class="Tl">No que eu sou bom: </p>
+        <p class="Lt">Eu sou</p>
+    </section>
+
+    <footer>
+        <p  class="Tl">Informações pessoais:</p>
+    </footer>
+</body>
+</html>

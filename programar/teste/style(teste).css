@@ -7,6 +7,7 @@ body{
 .Paragrafos{
     background-color: rgb(121, 145, 160);
     padding: 20px 10px;
+    margin: 10px;
     display: block;
 }
 .P1{
@@ -23,11 +24,33 @@ body{
     margin: 0px 50px;
 }
 
-#Tl{
+.Tl{
     font-size: 40px;
+    font-weight: bold;
 }
 #Sb{
     font-weight: bold;
     font-size: 30px;
     margin: 0px 142px 00px 8px;
+}
+footer{
+    text-align: center;
+}
+
+.Lt{
+    font-size: 30px;
+}
+
+.Paragrafo1{
+    font-size: 30px;
+    display: none;
+    text-align: center;
+    margin: 0px 450px 00px 400px;
+    background-color: rgb(88, 101, 119);
+    
+}
+
+.esconder {
+    display: none;
+    margin: 10px 750px 10px 800px;
 }
